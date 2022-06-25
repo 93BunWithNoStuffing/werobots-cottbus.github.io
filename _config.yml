@@ -1,2 +1,8 @@
 
+name: WeRobots Homepage
+url: https://werobots-cottbus.github.io
+
+markdown: kramdown
 theme: jekyll-theme-hacker
+# remote_theme: 
+
