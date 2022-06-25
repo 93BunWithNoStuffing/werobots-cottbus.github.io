@@ -1,0 +1,22 @@
+
+#header nav
+header_nav:
+- title: header_nav
+  items:
+    - title: Home
+      url: /home
+    - title: Team
+      url: /team
+    - title: Seasons
+      url: /seasons
+
+#footer nav
+footer_nav:
+- title: footer_nav
+  items:
+    - title: YouTube
+      external_url: https://www.youtube.com/user/werobots
+    - title: Instagram
+      external_url: https://www.instagram.com/werobots_cottbus/
+    - title: GitHub
+      external_url: https://github.com/WeRobots-Cottbus

@@ -1,0 +1,54 @@
+
+entries:
+- title: sidebar
+  product: Alle Saisons
+  version:
+  folders:
+    
+    - title: "Aktuelle Saison"
+      url: /seasons
+      output: web
+      folderitems:
+      
+      - title: "Cargo Connect"
+        url: /seasons/cargo-connect
+        output: web
+
+    - title: "Vergangene Saisons"
+      folderitems:
+      
+      - title: RePlay
+        url: /seasons/replay
+        output: web
+        
+      - title: City Shaper
+        url: /seasons/city-shaper
+        output: web
+        
+      - title: Into Orbit
+        url: /seasons/into-orbit
+        output: web
+        
+      - title: Hydro Dynamics
+        url: /seasons/hydro-dynamics
+        output: web
+        
+      - title: Animal Allies
+        url: /seasons/animal-allies
+        output: web
+        
+      - title: Trash Trek
+        url: /seasons/trash-trek
+        output: web
+        
+      - title: Nature's Fury
+        url: /seasons/natures-fury
+        output: web
+        
+      - title: Senior Solutions
+        url: /seasons/senior-solutions
+        output: web
+        
+      - title: Food Factor
+        url: /seasons/food-factor
+        output: web

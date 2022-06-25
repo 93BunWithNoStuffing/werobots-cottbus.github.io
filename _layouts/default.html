@@ -4,7 +4,6 @@
         {% include head.html %}
 
         <!-- https://github.com/ghiculescu/jekyll-table-of-contents -->
-        <script src="_scripts/toc.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 $("#toc").toc();
@@ -16,14 +15,14 @@
         {% endif %}
     </head>
     <body>
-        {% include topnav.html %}
+        {% include header_nav.html %}
         
         {% unless page.hide_sidebar %}        
             {% include sidebar.html %}
         {% endunless %}
         
-        {% include {{ content }} %}
+        {{ content }}
 
-        {% include footer.html %}
+        {% include footer_nav.html %}
     </body>
 </html>
