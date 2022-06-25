@@ -3,7 +3,7 @@ title: "WeRobots Homepage"
 keywords: homepage
 last_updated: 25-Jun-2022
 hide_sidebar: true
-permalink: home
+permalink: index
 toc: false
 ---
 
