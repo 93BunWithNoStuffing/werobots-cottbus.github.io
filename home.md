@@ -3,9 +3,11 @@ title: "WeRobots Homepage"
 keywords: homepage
 last_updated: 25-Jun-2022
 hide_sidebar: true
-permalink: index
+permalink: home
 toc: false
 ---
+
+<div id="toc"></div>
 
 ## Welcome to GitHub Pages
 

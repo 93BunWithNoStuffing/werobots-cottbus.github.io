@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        {% include head.html %}
+
+        <!-- https://github.com/ghiculescu/jekyll-table-of-contents -->
+        <script src="_scripts/toc.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#toc").toc();
+            });
+        </script>
+
+        {% if page.google_analytics %}
+            {% include google_analytics.html %}
+        {% endif %}
+    </head>
+    <body>
+        {% include topnav.html %}
+        
+        {% unless page.hide_sidebar %}        
+            {% include sidebar.html %}
+        {% endunless %}
+        
+        {% include {{ content }} %}
+
+        {% include footer.html %}
+    </body>
+</html>
