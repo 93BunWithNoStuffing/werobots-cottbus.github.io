@@ -20,18 +20,16 @@
 {% assign header_nav = site.data[page.header_nav] %}
 
                 {% for entry in topnav.topnav %}
-                {% for item in entry.items %}
-                {% if item.external_url %}
-                <li><a href="{{item.external_url}}" target="_blank">{{item.title}}</a></li>
-                {% elsif page.url contains item.url %}
-                <li class="active"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
-                {% else %}
-                <li><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
-                {% endif %}
+                    {% for item in entry.items %}
+                        {% if item.external_url %}
+                            <li><a href="{{item.external_url}}" target="_blank">{{item.title}}</a></li>
+                        {% elsif page.url contains item.url %}
+                            <li class="active"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                        {% else %}
+                            <li><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                        {% endif %}
+                    {% endfor %}
                 {% endfor %}
-                {% endfor %}
-			{% include feedback.html %}
-		{% endif %}
                 <!--comment out this block if you want to hide search-->
                 <li>
                     <!--start search-->
